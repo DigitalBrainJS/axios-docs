@@ -198,3 +198,27 @@ html[dir="rtl"] {
     }
   }
 }
+
+li.sponsor-card {
+  margin-bottom: 2.5rem;
+  padding: 2rem 2rem;
+
+  > a {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .text{
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+  }
+
+  img{
+    max-width: 100%;
+    max-height: 7rem;
+    position: relative;
+  }
+}

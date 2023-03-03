@@ -32,10 +32,14 @@
   :root {
     --margin: 25vw;
   }
+
   .code-preview {
     display: block !important;
   }
-  section#hero div.content {
-    width: 60% !important;
+
+  section#hero {
+    div.content {
+      width: 60% !important;
+    }
   }
 }
